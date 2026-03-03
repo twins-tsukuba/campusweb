@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=fdge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <title>CAMPUSSQUARE</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            
+            <img src="twins_top_1.png" alt="画像" width="475" height="355">
+            <h1><strong><b>TWINSへようこそ</b></strong></h1>  
+            <strong>
+                <p>※保護者の方は3/5(木)13時以降にログイン可能となります。<br>
+                    本サイトは保護者用のTWINSです。
+                </p>
+            </strong>
+                  
+        </div>
+
+        <div id="login-box">
+            <div class="down-box">
+                <form onsubmit="return login()">
+                    <input type="text" id="username"placeholder="　ユーザー名"/>
+                    <input type="password" id="password"placeholder="　パスワード"/>
+                    <input 
+                    type="submit"name="login-button"value="ログイン"/>
+                </form>
+                <div id="errorMessage" style="color: red" ></div>
+            </div>
+        </div>
+
+        <script>
+        function login() {
+            const id = document.getElementById("username").value;
+            const pw = document.getElementById("password").value;
+            const errorBox = document.getElementById("errorMessage");
+            const CORRECT_ID = "202510513";
+            const CORRECT_PW = "hi83t3h2";
+
+            if (id === CORRECT_ID && pw === CORRECT_PW) {
+                window.location.href = "gradeinquiry.html";
+                return false;
+            } else {
+                errorBox.textContent = "ユーザ名またはパスワードの入力に誤りがあります";
+                return false;
+            }
+        }
+        </script>
+
+
+
+    
+        
+    </body>
+</html>

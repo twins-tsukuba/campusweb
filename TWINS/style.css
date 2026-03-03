@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 ;
+    padding: 0;
+    background-color: #f9f6ef;
+    font-size: 16px;
+    color: #fff;   
+    font-weight: 300;
+}
+
+
+#errorMessage{
+    position: relative;
+    margin: 0 auto;
+    font-size: 12px;
+    margin-bottom : 30px;
+    margin-left:150px;
+    padding: 4px;
+    width: 300px;
+    height: 40px;
+    font-weight: 300;
+    transition: all 1.0s;
+
+}
+
+
+
+
+#login-box{
+    position: relative;
+    width: 600px;
+    height: 200px;
+    margin: auto;
+}
+.down-box{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding:0px;
+    width: 300px;
+    height: 200px;
+}
+
+h1{
+    top: 150px;
+    margin: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 25px;
+    color: #333;
+    font
+}
+
+p{
+    top: 150px;
+    margin: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 350;
+    font-size: 12px;
+    color: #333;
+    font
+
+}
+
+input[type="text"],
+input[type="password"]{
+    margin-bottom : 30px;
+    margin-left:150px;
+    padding: 4px;
+    width: 300px;
+    height: 40px;
+    border: #4b4b4b;
+    outline: #4b4b4b;
+    border-bottom: 1px solid #aaa;
+    font-weight: 400;
+    font-size: 12px;
+    transition: all 1.0s;
+    border-radius: 20px;
+    resize: vertical;
+    overflow-y: auto;
+    left:50%;
+    
+}
+
+input[type="submit"]{
+    margin-left: 225px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 40px;
+    font-weight: 350;
+    background-color:#49747b;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    transition: all 1.0s;
+    cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+    background: color #333;;
+}
+
+
+
+
