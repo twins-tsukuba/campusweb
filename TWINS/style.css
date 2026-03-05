@@ -10,11 +10,7 @@ body{
     color: #fff;   
     font-weight: 300;
 }
-@media print {
-  body {
-    -webkit-print-color-adjust: exact;
-    -print-color-adjust: exact;
-  }
+
 
 
 #errorMessage{
@@ -110,6 +106,7 @@ input[type="submit"]{
 input[type="submit"]:hover {
     background: color #333;;
 }
+
 
 
 
