@@ -13,6 +13,11 @@ body{
     font-weight: 400;
 }
 
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    -print-color-adjust: exact;
+  }
 
 
 #table{
@@ -38,6 +43,4 @@ p2{
 p3{
     padding-top: 25px;
     font-size: 12px;   
-
 }
-
