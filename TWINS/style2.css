@@ -13,11 +13,7 @@ body{
     font-weight: 400;
 }
 
-@media print {
-  body {
-    -webkit-print-color-adjust: exact;
-    -print-color-adjust: exact;
-  }
+
 
 #table{
     color: black;    
@@ -44,3 +40,4 @@ p3{
     font-size: 12px;   
 
 }
+
