@@ -38,13 +38,14 @@
             const pw = document.getElementById("password").value;
             const errorBox = document.getElementById("errorMessage");
             const CORRECT_ID = "h202510513";
-            const CORRECT_PW = "yuga1514";
+            const CORRECT_PW = "GGGGGyuga1514";
 
             if (id === CORRECT_ID && pw === CORRECT_PW) {
+                errorBox.textContent = "ユーザ名またはパスワードの入力に誤りがあります"
                 window.location.href = "gradeinquiry.html";
                 return false;
             } else {
-                errorBox.textContent = "ユーザ名またはパスワードの入力に誤りがあります";
+                errorBox.textContent = "閲覧期間外です";
                 return false;
             }
         }
