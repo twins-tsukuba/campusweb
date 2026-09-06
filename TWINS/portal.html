@@ -13,7 +13,7 @@
             <img src="twins_top_1.png" alt="画像" width="475" height="355">
             <h1><strong><b>TWINSへようこそ</b></strong></h1>  
             <strong>
-                <p>※保護者の方は3/5(木)13時以降にログイン可能となります。<br>
+                <p>※保護者の方は9/7(月)13時～9/23（水）17時の期間中ログイン可能となります。<br>
                     本サイトは保護者用のTWINSです。
                 </p>
             </strong>
@@ -38,14 +38,13 @@
             const pw = document.getElementById("password").value;
             const errorBox = document.getElementById("errorMessage");
             const CORRECT_ID = "h202510513";
-            const CORRECT_PW = "GGGGGyuga1514";
+            const CORRECT_PW = "yuga1514";
 
             if (id === CORRECT_ID && pw === CORRECT_PW) {
-                errorBox.textContent = "ユーザ名またはパスワードの入力に誤りがあります"
                 window.location.href = "gradeinquiry.html";
                 return false;
             } else {
-                errorBox.textContent = "閲覧期間外です";
+                errorBox.textContent = "ユーザ名またはパスワードの入力に誤りがあります";
                 return false;
             }
         }
