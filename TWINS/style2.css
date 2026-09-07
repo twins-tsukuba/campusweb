@@ -13,15 +13,7 @@ body{
     font-weight: 400;
 }
 
-@media print {
-  body {
-    -webkit-print-color-adjust: exact;
-    -print-color-adjust: exact;
-  }
 
-.print-target{
-    background-color: #f9f6ef !important;
-}
 
 #table{
     color: black;    
@@ -47,3 +39,15 @@ p3{
     padding-top: 25px;
     font-size: 12px;   
 }
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    -print-color-adjust: exact;
+  }
+
+.print-target{
+    background-color: #f9f6ef !important;
+}
+
+
